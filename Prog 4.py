@@ -1,9 +1,2 @@
-num = []
-n = int(input())
-
-for i in range(n):
-    num.append(input())
-
-print(num)
-print(tuple(num))
-
+d = {'a':1, 'b':1}
+print(str(d))
