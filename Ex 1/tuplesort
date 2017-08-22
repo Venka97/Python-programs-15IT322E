@@ -1,3 +1,5 @@
 from operator import itemgetter
-data = [('abc', 121),('abc', 231),('abc', 148), ('abc',221)]
+
+data = [('Venkatesh', 7),('Rooney', 9),('Jimmy', 1), ('Plant',21)]
+
 print(sorted(data,key=itemgetter(1)))
